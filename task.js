@@ -1,5 +1,9 @@
 `use strict`
 
+//navigator
+
+
+
 
 // let arr = [1, 5, 6, 4, 6];
 // let arr1 = arr.length-1;
@@ -18,6 +22,9 @@
 
 
 
+//driver
+
+
 // function uppercase(str)
 // {
 //   let array1 = str.split(' ');
@@ -33,31 +40,46 @@
 
 //********************************************************* */
 
+
+//navigator
+
+
+
 // let str = "abcdcba";
-// function Palindrome(str){
-// let x = str.length-1;
-// for (let i = 0; i<x/2;i++ ){
-//     let x = str[i];
-//     let t = str[x-i];
-//     if (x==t){
-//         console.log("true");
-//         return true;
+// let str2= str.split("").reverse().join("");
+// if (str==str2){
+// console.log(true);
+// }
+// else{ 
+// console.log(false);
+// }
+
+
+/***************************************** */
+
+
+//driver
+
+// function decending(array) {
+//     let done = false;
+//     while (!done) {need help with this 
+//       done = true;
+//       for (let i = 1; i < array.length; i += 1) {
+//         if (array[i - 1] > array[i]) {
+//           done = false;
+//           let tmp = array[i - 1];
+//           array[i - 1] = array[i];
+//           array[i] = tmp;
+//         }
+//       }
 //     }
-// }
-// console.log("false");
-// return false;
-// }
-
-
-
-let str = "abcdcba";
-let str2= str.split("").reverse().join("");
-if (str==str2){
-console.log(true);
-}
-else{ 
-console.log(false);
-}
+  
+//     return array;
+//   }
+  
+//   let numbers = [12, 10, 15, 11, 14, 13, 16];
+//   decending(numbers);
+//   console.log(numbers);
 
 
 
